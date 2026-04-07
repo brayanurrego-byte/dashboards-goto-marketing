@@ -1,0 +1,89 @@
+export default function CompanyDashboardLoading() {
+  return (
+    <main style={{ maxWidth: 1200, margin: "0 auto" }}>
+      <div style={{ marginBottom: 24 }}>
+        <div
+          style={{
+            height: 12,
+            width: 140,
+            borderRadius: 6,
+            background: "rgba(0,212,170,0.12)",
+            marginBottom: 12,
+          }}
+        />
+        <div
+          style={{
+            height: 28,
+            width: 220,
+            borderRadius: 6,
+            background: "rgba(255,255,255,0.06)",
+            marginBottom: 8,
+          }}
+        />
+        <div
+          style={{
+            height: 16,
+            width: 480,
+            borderRadius: 6,
+            background: "rgba(255,255,255,0.04)",
+          }}
+        />
+      </div>
+
+      <div
+        style={{
+          height: 1,
+          background: "linear-gradient(90deg, transparent, #00D4AA, #6C5CE7, #0984E3, transparent)",
+          marginBottom: 24,
+        }}
+      />
+
+      {/* KPI card skeletons */}
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
+          gap: 12,
+          marginBottom: 28,
+        }}
+      >
+        {[1, 2, 3, 4, 5, 6].map((i) => (
+          <div
+            key={i}
+            style={{
+              borderRadius: 12,
+              border: "1px solid rgba(255,255,255,0.06)",
+              background: "rgba(255,255,255,0.02)",
+              padding: 16,
+              height: 110,
+              borderLeft: "4px solid rgba(255,255,255,0.06)",
+            }}
+          />
+        ))}
+      </div>
+
+      {/* Chart skeleton */}
+      <div
+        style={{
+          borderRadius: 12,
+          border: "1px solid rgba(255,255,255,0.06)",
+          background: "rgba(255,255,255,0.02)",
+          padding: 20,
+          height: 220,
+          marginBottom: 24,
+        }}
+      />
+
+      {/* Table skeleton */}
+      <div
+        style={{
+          borderRadius: 12,
+          border: "1px solid rgba(255,255,255,0.06)",
+          background: "rgba(255,255,255,0.02)",
+          padding: 20,
+          height: 240,
+        }}
+      />
+    </main>
+  );
+}
