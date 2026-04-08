@@ -21,7 +21,7 @@ export function CustomerFunnel({ stages, title = "Embudo de Conversión" }: Cust
     >
       <div style={{ marginBottom: 20 }}>
         <p style={{ margin: 0, color: "#00D4AA", fontFamily: "monospace", fontSize: 11, letterSpacing: "0.1em" }}>
-          // CONVERSION.FUNNEL
+          {"// CONVERSION.FUNNEL"}
         </p>
         <h3 style={{ margin: "4px 0 0", fontSize: 16, fontWeight: 600 }}>{title}</h3>
       </div>

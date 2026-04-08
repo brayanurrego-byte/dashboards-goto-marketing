@@ -77,7 +77,7 @@ export function ShopifyPanel({ data }: ShopifyPanelProps) {
         </div>
         <div>
           <p style={{ margin: 0, color: SHOPIFY_GREEN, fontFamily: "monospace", fontSize: 11, letterSpacing: "0.1em" }}>
-            // SHOPIFY.INTEGRATION
+            {"// SHOPIFY.INTEGRATION"}
           </p>
           <h3 style={{ margin: "2px 0 0", fontSize: 16, fontWeight: 600 }}>Tienda Shopify — Demo Live</h3>
         </div>

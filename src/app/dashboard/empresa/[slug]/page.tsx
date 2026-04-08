@@ -114,7 +114,7 @@ export default async function CompanyDashboardPage({ params }: CompanyDashboardP
       <div style={{ marginBottom: 24 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, flexWrap: "wrap" }}>
           <p style={{ margin: 0, color: "#00D4AA", fontFamily: "monospace", fontSize: 11, letterSpacing: "0.1em" }}>
-            // COMPANY.DASHBOARD
+            {"// COMPANY.DASHBOARD"}
           </p>
           <span
             style={{

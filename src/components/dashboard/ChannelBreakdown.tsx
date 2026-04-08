@@ -62,7 +62,7 @@ export function ChannelBreakdown({ data }: ChannelBreakdownProps) {
     >
       <div style={{ marginBottom: 16 }}>
         <p style={{ margin: 0, color: "#00D4AA", fontFamily: "monospace", fontSize: 11, letterSpacing: "0.1em" }}>
-          // CHANNEL.BREAKDOWN
+          {"// CHANNEL.BREAKDOWN"}
         </p>
         <h3 style={{ margin: "4px 0 0", fontSize: 16, fontWeight: 600 }}>Ingresos por Canal</h3>
         <p style={{ margin: "2px 0 0", fontSize: 12, color: "rgba(255,255,255,0.40)" }}>
