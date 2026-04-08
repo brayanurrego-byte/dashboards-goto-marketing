@@ -63,7 +63,7 @@ export function RevenueLineChart({ data, showOrders = false }: RevenueLineChartP
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 20, flexWrap: "wrap", gap: 8 }}>
         <div>
           <p style={{ margin: 0, color: "#00D4AA", fontFamily: "monospace", fontSize: 11, letterSpacing: "0.1em" }}>
-            // REVENUE.TIMELINE
+            {"// REVENUE.TIMELINE"}
           </p>
           <h3 style={{ margin: "4px 0 0", fontSize: 16, fontWeight: 600 }}>Ingresos por Mes</h3>
         </div>

@@ -59,7 +59,7 @@ export function InventoryPanel({ items }: InventoryPanelProps) {
         </div>
         <div>
           <p style={{ margin: 0, color: "#0984E3", fontFamily: "monospace", fontSize: 11, letterSpacing: "0.1em" }}>
-            // EXCEL.INVENTORY
+            {"// EXCEL.INVENTORY"}
           </p>
           <h3 style={{ margin: "2px 0 0", fontSize: 16, fontWeight: 600 }}>Inventario — Sincronizado Excel</h3>
         </div>

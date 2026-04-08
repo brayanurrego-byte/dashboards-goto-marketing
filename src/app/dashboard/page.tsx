@@ -89,7 +89,7 @@ export default async function DashboardPage() {
       {/* ── Header ───────────────────────────────────────────── */}
       <div style={{ marginBottom: 24 }}>
         <p style={{ margin: 0, color: "#00D4AA", fontFamily: "monospace", fontSize: 11, letterSpacing: "0.1em" }}>
-          // ADMIN.PORTFOLIO
+          {"// ADMIN.PORTFOLIO"}
         </p>
         <h1 style={{ margin: "8px 0 0", fontSize: 30, fontWeight: 700, letterSpacing: "-0.02em" }}>
           Centro de Control
